@@ -1,0 +1,133 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+
+}
+
+h1 {
+  padding-top: 150px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  padding: 25px 0px;
+}
+
+.jumbotron {
+background-color: #0052A5;
+color: #fff;
+}
+
+.donate-hero {
+  margin-top: 50px;
+}
+
+.btn-danger {
+  background-color: #E0162B;
+  margin-bottom: 100px;
+}
+
+.elephantimage {
+  margin-top: 150px;
+  width: 300px;
+}
+
+.howitworks {
+  height: 100vh;
+  color: #0052A5;
+  padding-top: 25px;
+}
+
+.howitworks h2 {
+  font-size: 64px;
+  margin-bottom: 25px;
+  font-weight: 900;
+}
+
+.description {
+  width: 800px;
+  margin: auto;
+}
+
+li {
+  font-size: 28px;
+  padding-bottom: 35px;
+}
+
+.upnext {
+
+}
+
+.leftcol {
+  background-color: #E0162B;
+  color: #fff;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+
+.rightcol {
+  background-color: #0052A5;
+  color: #fff;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.rightcol h3 {
+  font-size: 4em;
+}
+
+.rightcol h5 {
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
+
+.formwrapper {
+  width: 500px;
+  margin: auto;
+  border: 2px solid #0052A5;
+  border-radius: 5px;
+  background-color: #0052A5;
+  color: #fff;
+}
+
+.donate {
+  background-color: #fff;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.donate h2 {
+  color: #0052A5;
+}
+
+.donateform {
+  padding: 25px 0 0 0;
+  width: 400px;
+  margin: auto;
+}
+
+.frequency {
+  padding: 15px 0 0 0;
+}
+
+.btn-donate {
+  background-color: #E0162B;
+  color: #fff;
+  margin-bottom: 35px;
+}
+
+.stripelogo {
+  display: block;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.footer {
+  height: 200px;
+  background-color: #333;
+  color: #ccc;
+  padding: 25px;
+  text-align: center;
+}
