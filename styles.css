@@ -4,10 +4,18 @@ body {
 
 }
 
+@media (max-width:576px) {
+  h1 {
+    font-size: 64px;
+  }
+}
+
 h1 {
   padding-top: 150px;
   font-family: 'Work Sans', sans-serif;
 }
+
+
 
 h2 {
   text-align: center;
@@ -32,6 +40,8 @@ color: #fff;
   margin-top: 150px;
   width: 300px;
 }
+
+
 
 .howitworks {
   height: 100vh;
@@ -61,11 +71,14 @@ li {
 
 .leftcol {
   background-color: #E0162B;
+  background-image: url("images/paul-ryan.jpg");
   color: #fff;
   height: 100vh;
-  padding-top: 50px;
 }
 
+.pol-img {
+  margin: auto;
+}
 
 .rightcol {
   background-color: #0052A5;
@@ -76,6 +89,7 @@ li {
 
 .rightcol h3 {
   font-size: 4em;
+  margin-bottom: 25px;
 }
 
 .rightcol h5 {
@@ -106,6 +120,7 @@ li {
   padding: 25px 0 0 0;
   width: 400px;
   margin: auto;
+
 }
 
 .frequency {
@@ -123,6 +138,20 @@ li {
   margin: auto;
   padding-top: 25px;
 }
+
+/* Begin Thank you */
+
+.elephantimagethanks {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.thankyouheader {
+  padding-top: 50px;
+  text-align: center;
+}
+
 
 .footer {
   height: 200px;
