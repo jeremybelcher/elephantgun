@@ -1,7 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
-
 }
 
 @include media-breakpoint-down(sm) {
@@ -11,20 +10,18 @@ body {
 }
 
 h1 {
-  padding-top: 150px;
   font-family: 'Work Sans', sans-serif;
 }
-
-
 
 h2 {
   text-align: center;
   padding: 25px 0px;
 }
 
-.jumbotron {
-background-color: #0052A5;
-color: #fff;
+.header {
+  background-color: #0052A5;
+  color: #fff;
+  padding-top: 7.5rem;
 }
 
 .donate-hero {
@@ -36,12 +33,10 @@ color: #fff;
   margin-bottom: 100px;
 }
 
+
 .elephantimage {
-  margin-top: 150px;
   width: 300px;
 }
-
-
 
 .howitworks {
   height: 100vh;
@@ -53,6 +48,7 @@ color: #fff;
   font-size: 64px;
   margin-bottom: 25px;
   font-weight: 900;
+  width: 100%
 }
 
 .description {
@@ -65,15 +61,15 @@ li {
   padding-bottom: 35px;
 }
 
-.upnext {
-
-}
+.upnext {}
 
 .leftcol {
   background-color: #E0162B;
   background-image: url("images/paul-ryan.jpg");
+  background-repeat: no-repeat;
   color: #fff;
   height: 100vh;
+  background-position: center;
 }
 
 .pol-img {
@@ -120,7 +116,6 @@ li {
   padding: 25px 0 0 0;
   width: 400px;
   margin: auto;
-
 }
 
 .frequency {
@@ -152,7 +147,6 @@ li {
   text-align: center;
 }
 
-
 .footer {
   height: 200px;
   background-color: #333;
@@ -167,22 +161,20 @@ li {
   .display-3 {
     font-size: 2.5rem;
   }
-
-h1 {
-  padding-top: 50px;
+  .howitworks h2 {
+    font-size: 36px;
+  }
+  li {
+    font-size: 20px;
+    padding-bottom: 16px;
+  }
+  .rightcol h3 {
+    font-size: 2em;
+  }
 }
 
-.howitworks h2 {
-  font-size: 36px;
-}
-
-li {
-  font-size: 20px;
-  padding-bottom: 16px;
-}
-
-.rightcol h3 {
-  font-size: 2em;
-}
-
+@media (max-width: 574px) {
+  .header {
+    padding-top: 5.5rem;
+  }
 }
