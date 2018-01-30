@@ -1,7 +1,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
-
+  font-size: 16pt;
 }
 
 @include media-breakpoint-down(sm) {
@@ -98,6 +98,25 @@ li {
   padding-bottom: 15px;
 }
 
+.ammo {
+  background-color: #E0162B;
+  color: #fff;
+  padding: 50px;
+    text-align: center;
+}
+
+.ammo h2 {
+font-size: 4em;
+margin-top: -25px;
+}
+
+
+.ammo a {
+  background-color: inherit;
+  color: #fff;
+  border-bottom: 7px solid #0052A5;
+}
+
 .formwrapper {
   width: 500px;
   margin: auto;
@@ -121,6 +140,11 @@ li {
   padding: 25px 0 0 0;
   width: 400px;
   margin: auto;
+}
+
+.btn-primary:not([disabled]):not(.disabled).active {
+  background-color: #E0162B;
+  border-color: #E0162B;
 }
 
 .frequency {
@@ -163,7 +187,7 @@ li {
   height: 200px;
   background-color: #333;
   color: #ccc;
-  padding: 25px;
+  padding: 50px;
   text-align: center;
 }
 
@@ -190,6 +214,8 @@ li {
 .rightcol h3 {
   font-size: 2em;
 }
+
+
 
 .formwrapper {
   width: 100%;
