@@ -72,6 +72,7 @@ li {
 .leftcol {
   background-color: #E0162B;
   background-image: url("images/paul-ryan.jpg");
+  background-repeat: no-repeat;
   color: #fff;
   height: 100vh;
 }
@@ -120,7 +121,6 @@ li {
   padding: 25px 0 0 0;
   width: 400px;
   margin: auto;
-
 }
 
 .frequency {
@@ -137,6 +137,12 @@ li {
   display: block;
   margin: auto;
   padding-top: 25px;
+}
+
+.donate-mobile {
+  background-color: #fff;
+  height: 100vh;
+  padding-top: 50px;
 }
 
 /* Begin Thank you */
@@ -183,6 +189,33 @@ li {
 
 .rightcol h3 {
   font-size: 2em;
+}
+
+.formwrapper {
+  width: 100%;
+  padding: 0 15px 0 15px;
+  margin: auto;
+  border: 2px solid #0052A5;
+  border-radius: 5px;
+  background-color: #0052A5;
+  color: #fff;
+}
+
+.donateform {
+  padding: 25px 0 0 0;
+  width: 100%;
+}
+
+.donateline {
+  width: 90%;
+  margin: 25px auto;
+}
+
+.btn-donate {
+  background-color: #E0162B;
+  color: #fff;
+  width: 300px;
+  margin: auto;
 }
 
 }
