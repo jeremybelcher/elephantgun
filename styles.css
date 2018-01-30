@@ -128,7 +128,6 @@ margin-top: -25px;
 
 .donate {
   background-color: #fff;
-  height: 100vh;
   padding-top: 50px;
 }
 
@@ -163,11 +162,6 @@ margin-top: -25px;
   padding-top: 25px;
 }
 
-.donate-mobile {
-  background-color: #fff;
-  height: 100vh;
-  padding-top: 50px;
-}
 
 /* Begin Thank you */
 
