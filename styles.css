@@ -93,14 +93,14 @@ li {
   padding-bottom: 15px;
 }
 
-.formwrapper {
+/* .formwrapper {
   width: 500px;
   margin: auto;
   border: 2px solid #0052A5;
   border-radius: 5px;
   background-color: #0052A5;
   color: #fff;
-}
+} */
 
 .donate {
   background-color: #fff;
@@ -112,11 +112,11 @@ li {
   color: #0052A5;
 }
 
-.donateform {
+/* .donateform {
   padding: 25px 0 0 0;
   width: 400px;
   margin: auto;
-}
+} */
 
 .frequency {
   padding: 15px 0 0 0;
