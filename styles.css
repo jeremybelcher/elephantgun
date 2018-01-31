@@ -44,9 +44,9 @@ color: #fff;
 
 
 .howitworks {
-  height: 100vh;
   color: #0052A5;
   padding-top: 25px;
+  padding-bottom: 50px;
 }
 
 .howitworks h2 {
@@ -115,6 +115,11 @@ margin-top: -25px;
   background-color: inherit;
   color: #fff;
   border-bottom: 7px solid #0052A5;
+}
+
+.ammo a:hover {
+  text-decoration: none;
+  background-color: #0052a5;
 }
 
 .formwrapper {
