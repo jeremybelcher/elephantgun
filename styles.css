@@ -1,6 +1,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
+  font-size: 16pt;
 }
 
 @include media-breakpoint-down(sm) {
@@ -39,9 +40,9 @@ h2 {
 }
 
 .howitworks {
-  height: 100vh;
   color: #0052A5;
   padding-top: 25px;
+  padding-bottom: 50px;
 }
 
 .howitworks h2 {
@@ -93,7 +94,31 @@ li {
   padding-bottom: 15px;
 }
 
-/* .formwrapper {
+.ammo {
+  background-color: #E0162B;
+  color: #fff;
+  padding: 50px;
+    text-align: center;
+}
+
+.ammo h2 {
+font-size: 4em;
+margin-top: -25px;
+}
+
+
+.ammo a {
+  background-color: inherit;
+  color: #fff;
+  border-bottom: 7px solid #0052A5;
+}
+
+.ammo a:hover {
+  text-decoration: none;
+  background-color: #0052a5;
+}
+
+.formwrapper {
   width: 500px;
   margin: auto;
   border: 2px solid #0052A5;
@@ -104,7 +129,6 @@ li {
 
 .donate {
   background-color: #fff;
-  height: 100vh;
   padding-top: 50px;
 }
 
@@ -112,14 +136,20 @@ li {
   color: #0052A5;
 }
 
-/* .donateform {
+.donateform {
   padding: 25px 0 0 0;
   width: 400px;
   margin: auto;
-} */
+}
+
+
+.btn-primary:not([disabled]):not(.disabled).active {
+  background-color: #E0162B;
+  border-color: #E0162B;
+}
 
 .frequency {
-  padding: 15px 0 0 0;
+  padding-top: 15px;
 }
 
 .btn-donate {
@@ -134,6 +164,7 @@ li {
   padding-top: 25px;
 }
 
+
 /* Begin Thank you */
 
 .elephantimagethanks {
@@ -147,11 +178,19 @@ li {
   text-align: center;
 }
 
+.takeaction {
+
+}
+
+.share {
+  margin-top: 50px;
+  text-align: center;
+}
+
 .footer {
-  height: 200px;
   background-color: #333;
   color: #ccc;
-  padding: 25px;
+  padding: 50px;
   text-align: center;
 }
 
@@ -171,10 +210,41 @@ li {
   .rightcol h3 {
     font-size: 2em;
   }
+
+
+.ammo h2 {
+font-size: 2.5em;
+margin-top: -25px;
 }
 
+.formwrapper {
+  width: 100%;
+  padding: 0 15px 0 15px;
+  margin: auto;
+  border: 2px solid #0052A5;
+  border-radius: 5px;
+  background-color: #0052A5;
+  color: #fff;
+}
+
+.donateform {
+  padding: 25px 0 0 0;
+  width: 100%;
+}
+
+.donateline {
+  width: 90%;
+  margin: 25px auto;
+}
+
+.btn-donate {
+  background-color: #E0162B;
+  color: #fff;
+  width: 300px;
+  margin: auto;
+}
+}
 @media (max-width: 574px) {
   .header {
     padding-top: 5.5rem;
   }
-}
