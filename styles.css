@@ -89,9 +89,30 @@ li {
   margin-bottom: 25px;
 }
 
-.rightcol h5 {
-  padding-top: 35px;
+.rightcol h4 {
+  padding-top: 25px;
   padding-bottom: 15px;
+}
+
+.donate-details{
+  width: 400px;
+  margin: auto;
+  color: #0052A5;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.donate-details h5 {
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-link:hover{
+  text-decoration: none;
+}
+
+.donate-details li {
+  font-size: 16pt;
 }
 
 .ammo {
@@ -176,6 +197,10 @@ margin-top: -25px;
 .thankyouheader {
   padding-top: 50px;
   text-align: center;
+}
+
+.thanksbody h3 {
+  margin: 25px 0 25px 0;
 }
 
 .takeaction {
