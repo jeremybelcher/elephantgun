@@ -185,8 +185,17 @@ margin-top: -25px;
   padding-top: 25px;
 }
 
+.license {
+  font-size: 12pt;
+}
 
 /* Begin Thank you */
+
+.thankhero {
+  background-color: #0052A5;
+  color: #fff;
+  text-align: center;
+}
 
 .elephantimagethanks {
   display: block;
@@ -196,6 +205,11 @@ margin-top: -25px;
 
 .thankyouheader {
   padding-top: 50px;
+
+}
+
+.thanksgif {
+  width: 300px;
   text-align: center;
 }
 
@@ -203,12 +217,16 @@ margin-top: -25px;
   margin: 25px 0 25px 0;
 }
 
+.thanksbody li {
+  margin-bottom: 25px;
+}
+
 .takeaction {
 
 }
 
 .share {
-  margin-top: 50px;
+  margin-top: 15px;
   text-align: center;
 }
 
