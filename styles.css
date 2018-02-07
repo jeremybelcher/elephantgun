@@ -11,20 +11,18 @@ body {
 }
 
 h1 {
-  padding-top: 150px;
   font-family: 'Work Sans', sans-serif;
 }
-
-
 
 h2 {
   text-align: center;
   padding: 25px 0px;
 }
 
-.jumbotron {
-background-color: #0052A5;
-color: #fff;
+.header {
+  background-color: #0052A5;
+  color: #fff;
+  padding-top: 7.5rem;
 }
 
 .donate-hero {
@@ -36,12 +34,10 @@ color: #fff;
   margin-bottom: 100px;
 }
 
+
 .elephantimage {
-  margin-top: 150px;
   width: 300px;
 }
-
-
 
 .howitworks {
   color: #0052A5;
@@ -53,6 +49,7 @@ color: #fff;
   font-size: 64px;
   margin-bottom: 25px;
   font-weight: 900;
+  width: 100%
 }
 
 .description {
@@ -65,9 +62,7 @@ li {
   padding-bottom: 35px;
 }
 
-.upnext {
-
-}
+.upnext {}
 
 .leftcol {
   background-color: #E0162B;
@@ -75,6 +70,7 @@ li {
   background-repeat: no-repeat;
   color: #fff;
   height: 100vh;
+  background-position: center;
 }
 
 .pol-img {
@@ -129,7 +125,7 @@ margin-top: -25px;
   border-radius: 5px;
   background-color: #0052A5;
   color: #fff;
-}
+} */
 
 .donate {
   background-color: #fff;
@@ -146,13 +142,14 @@ margin-top: -25px;
   margin: auto;
 }
 
+
 .btn-primary:not([disabled]):not(.disabled).active {
   background-color: #E0162B;
   border-color: #E0162B;
 }
 
 .frequency {
-  padding: 15px 0 0 0;
+  padding-top: 15px;
 }
 
 .btn-donate {
@@ -182,7 +179,7 @@ margin-top: -25px;
 }
 
 .takeaction {
-  
+
 }
 
 .share {
@@ -203,23 +200,17 @@ margin-top: -25px;
   .display-3 {
     font-size: 2.5rem;
   }
+  .howitworks h2 {
+    font-size: 36px;
+  }
+  li {
+    font-size: 20px;
+    padding-bottom: 16px;
+  }
+  .rightcol h3 {
+    font-size: 2em;
+  }
 
-h1 {
-  padding-top: 50px;
-}
-
-.howitworks h2 {
-  font-size: 36px;
-}
-
-li {
-  font-size: 20px;
-  padding-bottom: 16px;
-}
-
-.rightcol h3 {
-  font-size: 2em;
-}
 
 .ammo h2 {
 font-size: 2.5em;
@@ -252,5 +243,8 @@ margin-top: -25px;
   width: 300px;
   margin: auto;
 }
-
 }
+@media (max-width: 574px) {
+  .header {
+    padding-top: 5.5rem;
+  }
