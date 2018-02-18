@@ -95,7 +95,7 @@ li {
 }
 
 .donate-details{
-  width: 400px;
+  max-width: 400px;
   margin: auto;
   color: #0052A5;
   text-align: left;
@@ -118,7 +118,7 @@ li {
 .ammo {
   background-color: #E0162B;
   color: #fff;
-  padding: 50px;
+  padding: 50px 25px;
     text-align: center;
 }
 
@@ -253,39 +253,37 @@ margin-top: -25px;
   .rightcol h3 {
     font-size: 2em;
   }
+  .ammo h2 {
+  font-size: 2em;
+  margin-top: -25px;
+  }
 
+  .formwrapper {
+    width: 100%;
+    padding: 0 15px 0 15px;
+    margin: auto;
+    border: 2px solid #0052A5;
+    border-radius: 5px;
+    background-color: #0052A5;
+    color: #fff;
+  }
 
-.ammo h2 {
-font-size: 2.5em;
-margin-top: -25px;
-}
+  .donateform {
+    padding: 25px 0 0 0;
+    width: 100%;
+  }
 
-.formwrapper {
-  width: 100%;
-  padding: 0 15px 0 15px;
-  margin: auto;
-  border: 2px solid #0052A5;
-  border-radius: 5px;
-  background-color: #0052A5;
-  color: #fff;
-}
+  .donateline {
+    width: 90%;
+    margin: 25px auto;
+  }
 
-.donateform {
-  padding: 25px 0 0 0;
-  width: 100%;
-}
-
-.donateline {
-  width: 90%;
-  margin: 25px auto;
-}
-
-.btn-donate {
-  background-color: #E0162B;
-  color: #fff;
-  width: 300px;
-  margin: auto;
-}
+  .btn-donate {
+    background-color: #E0162B;
+    color: #fff;
+    /* width: 300px; */
+    margin: auto;
+  }
 }
 @media (max-width: 574px) {
   .header {
