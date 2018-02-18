@@ -69,7 +69,7 @@ li {
   background-image: url("images/paul-ryan.jpg");
   background-repeat: no-repeat;
   color: #fff;
-  height: 100vh;
+  min-height: 100vh;
   background-position: center;
 }
 
@@ -80,7 +80,7 @@ li {
 .rightcol {
   background-color: #0052A5;
   color: #fff;
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 50px;
 }
 
