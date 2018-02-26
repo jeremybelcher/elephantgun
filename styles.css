@@ -4,12 +4,6 @@ body {
   font-size: 16pt;
 }
 
-@include media-breakpoint-down(sm) {
-  .display-3 {
-    font-size: 1.2rem;
-  }
-}
-
 h1 {
   font-family: 'Work Sans', sans-serif;
 }
@@ -23,6 +17,15 @@ h2 {
   background-color: #0052A5;
   color: #fff;
   padding-top: 7.5rem;
+  height: 80vh;
+}
+
+.header .display-3 {
+  font-size: 3.3em;
+}
+
+.header .lead {
+  font-size: 1.5em;
 }
 
 .donate-hero {
@@ -240,9 +243,14 @@ margin-top: -25px;
 /*mobile*/
 
 @media (max-width:768px) {
-  .display-3 {
+.header .display-3 {
     font-size: 2.5rem;
   }
+
+  .header .lead {
+    font-size: 1em;
+  }
+
   .howitworks h2 {
     font-size: 36px;
   }
@@ -285,7 +293,3 @@ margin-top: -25px;
     margin: auto;
   }
 }
-@media (max-width: 574px) {
-  .header {
-    padding-top: 5.5rem;
-  }
