@@ -25,7 +25,7 @@ h2 {
 }
 
 .header .lead {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .donate-hero {
@@ -34,7 +34,8 @@ h2 {
 
 .btn-danger {
   background-color: #E0162B;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 
@@ -53,6 +54,17 @@ h2 {
   margin-bottom: 25px;
   font-weight: 900;
   width: 100%
+}
+
+.howitworks a {
+  background-color: inherit;
+  color: #0052A5;
+  border-bottom: 7px solid #E0162B;
+}
+
+.howitworks a:hover {
+  text-decoration: none;
+  background-color: #E0162B;
 }
 
 .description {
@@ -149,7 +161,8 @@ margin-top: -25px;
   border-radius: 5px;
   background-color: #0052A5;
   color: #fff;
-} */
+  margin-top: 50px;
+}
 
 .donate {
   background-color: #fff;
@@ -157,7 +170,7 @@ margin-top: -25px;
 }
 
 .donate h2 {
-  color: #0052A5;
+  color: #fff;
 }
 
 .donateform {
@@ -182,10 +195,11 @@ margin-top: -25px;
   margin-bottom: 35px;
 }
 
-.stripelogo {
+.ablogo {
   display: block;
   margin: auto;
-  padding-top: 25px;
+  width: 150px;
+  margin-bottom: 50px;
 }
 
 .license {
@@ -198,6 +212,7 @@ margin-top: -25px;
   background-color: #0052A5;
   color: #fff;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .elephantimagethanks {
@@ -211,9 +226,30 @@ margin-top: -25px;
 
 }
 
-.thanksgif {
-  width: 300px;
-  text-align: center;
+.thanksbg {
+    background-color: #0052A5;
+}
+
+.thanksbody {
+  padding: 25px;
+  background-color: #fff;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 6px 5px 0px rgba(255,255,255,0.35);
+-moz-box-shadow: 5px 6px 5px 0px rgba(255,255,255,0.35);
+box-shadow: 5px 6px 5px 0px rgba(255,255,255,0.35);
+color: #555;
+}
+
+.thanksbody a {
+  background-color: inherit;
+  color: #0052A5;
+  border-bottom: 7px solid #E0162B;
+}
+
+.thanksbody a:hover {
+  text-decoration: none;
+  background-color: #E0162B;
 }
 
 .thanksbody h3 {
@@ -233,11 +269,16 @@ margin-top: -25px;
   text-align: center;
 }
 
+.sharebuttons a {
+  text-decoration: none;
+}
+
 .footer {
   background-color: #333;
   color: #ccc;
   padding: 50px;
   text-align: center;
+  font-size: .6em;
 }
 
 /*mobile*/
@@ -249,6 +290,10 @@ margin-top: -25px;
 
   .header .lead {
     font-size: 1em;
+  }
+
+  .elephantimage {
+    width: 150px;
   }
 
   .howitworks h2 {
@@ -274,6 +319,7 @@ margin-top: -25px;
     border-radius: 5px;
     background-color: #0052A5;
     color: #fff;
+    margin-top: 25px;
   }
 
   .donateform {
