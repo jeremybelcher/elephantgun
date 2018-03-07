@@ -81,7 +81,7 @@ li {
 
 .leftcol {
   background-color: #E0162B;
-  background-image: url("images/paul-ryan.jpg");
+  background-image: url("images/louie-gohmert.jpg");
   background-repeat: no-repeat;
   color: #fff;
   min-height: 100vh;
@@ -107,6 +107,17 @@ li {
 .rightcol h4 {
   padding-top: 25px;
   padding-bottom: 15px;
+}
+
+.rightcol a {
+  background-color: inherit;
+  color: #fff;
+  border-bottom: 7px solid #E0162B;
+}
+
+.rightcol a:hover {
+  text-decoration: none;
+  background-color: #E0162B;
 }
 
 .donate-details{
