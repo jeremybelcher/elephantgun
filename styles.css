@@ -141,6 +141,17 @@ li {
   font-size: 16pt;
 }
 
+.card-body a {
+  background-color: inherit;
+  color: #0052A5 !important;
+  border-bottom: 7px solid #E0162B !important;
+}
+
+.card a:hover {
+  text-decoration: none !important;
+  background-color: #E0162B !important;
+}
+
 .ammo {
   background-color: #E0162B;
   color: #fff;
