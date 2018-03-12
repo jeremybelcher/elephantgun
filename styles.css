@@ -295,6 +295,30 @@ color: #555;
   text-decoration: none;
 }
 
+
+/*otherpages*/
+
+.other a {
+  background-color: inherit;
+  color: #0052A5;
+  border-bottom: 7px solid #E0162B;
+}
+
+.other a:hover {
+  text-decoration: none;
+  background-color: #E0162B;
+}
+
+.other h1 {
+margin: 50px 0px 50px 0px;
+color: #0052A5;
+}
+
+.other hr {
+  margin: 35px 0 35px 0;
+}
+
+
 .footer {
   background-color: #333;
   color: #ccc;
