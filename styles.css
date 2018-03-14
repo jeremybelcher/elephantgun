@@ -21,11 +21,13 @@ h2 {
 }
 
 .header .display-3 {
-  font-size: 3.3em;
+  font-size: 4em;
+  text-align: center;
 }
 
 .header .lead {
-  font-size: 1.2em;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 .donate-hero {
@@ -329,7 +331,7 @@ color: #0052A5;
 
 /*mobile*/
 
-@media (max-width:768px) {
+@media (max-width:900px) {
 .header .display-3 {
     font-size: 2.5rem;
   }
